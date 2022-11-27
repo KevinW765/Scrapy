@@ -2,7 +2,7 @@
 Use Scrapy to extract category. Website name. Website URL. website title tag on https://dmoztools.net/
 
 # To run the code
-open terminal and cd to DMOZspider fold
+open terminal and cd to DMOZspider folder
 
 scrapy crawl DMOZ_Crawler_sub_cat -o sub_cat.csv
 
