@@ -90,3 +90,8 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
 TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
+
+# ITEM_PIPELINES = {
+#     'pipelines.CommentsPipeline': 1,
+#     'pipelines.ProfilePipeline': 1,
+# }

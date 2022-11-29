@@ -5,12 +5,19 @@
 
 import scrapy
 
+# class MainItem(scrapy.Item):
+#     title_tag = scrapy.Field()
+#     top_category_array = scrapy.Field()
 
-class DmozItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Fiel   
-    Category = scrapy.Field()
-    Website_name = scrapy.Field()
-    Website_url = scrapy.Field()
-    website_title_tag = scrapy.Field()
+class TitleItem(scrapy.Item):
+    title_tag = scrapy.Field()
+
+class TopCatItem(scrapy.Item):
+    top_category = scrapy.Field()
     
+class SubCatItem(scrapy.Item):
+    sub_category = scrapy.Field()
+
+class UrlItem(scrapy.Item):
+    url_name = scrapy.Field()
+    url_link = scrapy.Field()

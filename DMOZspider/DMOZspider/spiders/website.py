@@ -21,7 +21,7 @@ class DMOZ_Crawler_website(scrapy.Spider):
             # print(tag.text.strip())
             # print(tag.get('href'))
 
-        print(1)
+        # print(1)
         urls1 = response.xpath('//a')
         for url in urls1:
             url_name = url.xpath('./text()').getall()
