@@ -3,6 +3,7 @@ Use Scrapy to extract category. Website name. Website URL. website title tag on 
 
 # Version Control
 Python Version - Python 3.10.0
+
 Other Modules and Packages used - refer to requirements.txt in Scrapy/DMOZspider/
 
 # To run the code
