@@ -5,9 +5,11 @@
 
 import scrapy
 
-# class MainItem(scrapy.Item):
-#     title_tag = scrapy.Field()
-#     top_category_array = scrapy.Field()
+class MainItem(scrapy.Item):
+    top_category_name = scrapy.Field()
+    top_category_link = scrapy.Field()
+    sub_category_name = scrapy.Field()
+    sub_category_link = scrapy.Field()
 
 class TitleItem(scrapy.Item):
     title_tag = scrapy.Field()
