@@ -6,16 +6,10 @@ Python Version - Python 3.10.0
 
 Other Modules and Packages used - refer to requirements.txt in Scrapy/DMOZspider/
 
-# Explanation
-
-The results are in 'CSV result' folder in DMOZspider folder.
-
-A Scrapy spider is usually responsible for extract a specific target. In this task, the goal is to make the Scrapy be able to write to the output Category. Website name. Website URL. Extract the website title tag content if possible. 
-
-In my first attempt, for each of the four targets, I used four spiders to extract the title tag of the website, top as well as sub categories, all the urls appeared on the site. 
-
 # To run the code
 open terminal and cd to DMOZspider folder
+
+scrapy crawl DMOZ_Crawler_main -o main.csv
 
 scrapy crawl DMOZ_Crawler_sub_cat -o sub_cat.csv
 
